@@ -2,17 +2,15 @@
   "name": "nodejs-workshop",
   "description": "Node.JS workshop",
   "scripts": {
-    "flow": "flow"
+    "start": "node workshop.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/MrKashlakov/nodejs-workshop"
   },
   "licence": "MIT",
-  "devDependencies": {
-    "flow-bin": "^0.48.0"
-  },
   "dependencies": {
-    "workshopper": "^2.7.0"
+    "workshopper-adventure": "^6.0.2",
+    "workshopper-exercise": "^3.0.1"
   }
 }
